@@ -48,3 +48,35 @@ h2 {
   border: 1px dotted oklch(40% 0.05 160);
   color: oklch(20% 0.05 160);
 }
+flexcontainer {
+  display: flex;
+}
+flex-chhild-opt-1 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+flex-child-opt-2 {
+  flex-basis: 0; *flexchildren의사이즈가 아닌 flexchildren하고 나머지의 사이즈
+  flex-grow: 1;
+  row-gap: .5rem;
+}
+.flex-container-opt-2{
+  justify-content: left;
+  justify-content: right;
+  justify-content: center;
+  space-between: 
+
+}
+.flex-contatiner-4{
+  gap: 1rem;
+  flex-x
+  flex-grow: 120;
+  
+}
+.flexwrep{
+  list-style: none;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding-top: 0;
+}
