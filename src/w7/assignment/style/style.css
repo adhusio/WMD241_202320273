@@ -6,7 +6,17 @@
 }
 body {
   width: 100%;
-  font-family: poppins;
+  font-family: "Montserrat", sans-serif;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding-left: 70px;
+  padding-right: 10px;
 }
 nav {
   display: flex;
